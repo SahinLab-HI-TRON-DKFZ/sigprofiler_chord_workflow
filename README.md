@@ -35,6 +35,6 @@ snakemake --use-conda --cores 8 # run
 - `chord_result/merged_contexts.txt`
 - `chord_result/chord_pred.txt`
 
-Author
-Sakshi Singh
+Author: Sakshi Singh
+
 Email: sakshi.singh@dkfz-heidelberg.de
