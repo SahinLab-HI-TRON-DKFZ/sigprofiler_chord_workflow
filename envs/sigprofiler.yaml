@@ -1,0 +1,8 @@
+# envs/sigprofiler.yaml
+name: sigprofiler-env
+channels: [conda-forge, bioconda, defaults]
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - SigProfilerAssignment

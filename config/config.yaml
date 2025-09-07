@@ -1,0 +1,16 @@
+# config/config.yaml
+# Unified workflow configuration for SigProfilerAssignment (Python) and CHORD (R)
+
+sigprofiler:
+  input_vcf_dir: "input_vcfs"   # folder containing VCF(s) for SigProfilerAssignment
+  output_dir: "sigprofiler_output"
+  genome_build: "GRCh38"        # GRCh38 or GRCh37
+  cosmic_version: 3.4
+  exome: false                  # true for exome, false for WGS
+
+chord:
+  vcf_dir: "vcf"                # folder containing *snv_indel.vcf.gz and *sv.vcf.gz per sample
+  output_dir: "chord_result"
+  sv_caller: "manta"            # per your pipeline; adjust if needed
+  recursive: false              # search subfolders for VCFs
+  ref_ucsc: "hg38"              # "hg38" or "hg19" for BSgenome package

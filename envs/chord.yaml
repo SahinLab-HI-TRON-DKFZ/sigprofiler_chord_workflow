@@ -1,0 +1,13 @@
+# envs/chord.yaml
+name: chord-env
+channels: [conda-forge, bioconda, defaults]
+dependencies:
+  - r-base>=4.3
+  - r-data.table
+  - r-stringr
+  - r-remotes
+  - r-optparse
+  - r-tidyverse
+  - bioconductor-biocmanager
+  - bioconductor-bsgenome.hsapiens.ucsc.hg38
+  - bioconductor-bsgenome.hsapiens.ucsc.hg19
