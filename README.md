@@ -1,4 +1,4 @@
-# Unified SigProfiler + CHORD Workflow (Snakemake)
+#SigProfiler + CHORD Workflow (Snakemake)
 
 Run **SigProfilerAssignment** (Python) and **CHORD** (R) in one go.
 
