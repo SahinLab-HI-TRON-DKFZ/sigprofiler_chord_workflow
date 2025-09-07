@@ -20,8 +20,8 @@ Run **SigProfilerAssignment** (Python) and **CHORD** (R) in one go.
 Edit `config/config.yaml`:
 - `sigprofiler.input_vcf_dir`: VCF folder for SigProfilerAssignment.
 - `sigprofiler.genome_build`: `GRCh38` or `GRCh37`; `cosmic_version`: e.g., `3.4`; `exome`: `true/false`.
-- `chord.vcf_dir`: folder with `*snv_indel.vcf(.gz)` and `*sv.vcf(.gz)` per sample.
-- `chord.ref_ucsc`: `hg38` (default) or `hg19`; `sv_caller`: `manta` by default.
+- `chord.vcf_dir`: folder with `*snv_indel.vcf(.gz)` per sample.
+- `chord.ref_ucsc`: `hg38` (default) or `hg19`
 - `chord.recursive`: set `true` to search subfolders.
 
 ## Run
