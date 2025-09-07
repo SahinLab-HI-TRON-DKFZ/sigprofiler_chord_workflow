@@ -38,4 +38,3 @@ snakemake --use-conda --cores 8 # run
 Author
 Sakshi Singh
 Email: sakshi.singh@dkfz-heidelberg.de
-Developer and pipeline designer at SahinLab-HI-TRON-DKFZ
